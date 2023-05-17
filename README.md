@@ -1,7 +1,9 @@
 # credit-risk-classification
 
 ## Overview of the Analysis
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+The dataset used consisted of historical lending 
+
+
 
 Explain the purpose of the analysis.
 Explain what financial information the data was on, and what you needed to predict.
