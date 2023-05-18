@@ -1,17 +1,23 @@
 # credit-risk-classification
 
 ## Overview of the Analysis
-The dataset used consisted of historical lending 
+The data was analyized using models created by machine learning algorithims. The source dataset consisted of lending historical data, which contained the necessary information to create the risk-analysis data model to determine lending to borrowers.
 
+The dataset included: loan amount, interest rate, borrower income, debt to income, number of accounts, derogatory marks, total debt and loan status. 
 
+The purpose of the data model that was created is to predict if the loan is a "healthy loan" or "high-risk loan". 
 
-Explain the purpose of the analysis.
-Explain what financial information the data was on, and what you needed to predict.
-Provide basic information about the variables you were trying to predict (e.g., value_counts).
-Describe the stages of the machine learning process you went through as part of this analysis.
-Briefly touch on any methods you used (e.g., LogisticRegression, or any resampling method).
-Results
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+The data model was two dimentional that had a y variable, which contained the "loan_status", and a x variable, which contained the features. After, the x and y variables were set the value_counts function was used to check the balance.
+
+Using the established variables the data was then fit into two datasets-training and testing. Based on the nature of the dataset a logical regression model was used for training and testing the model.
+
+Resources used for the evaluation of the model were "confusion_matrix", "balanced_accuracy_score", and "classification_report".
+
+## Results
+* Machine Learning Model 1:
+Accuracy, Precision, and Recall scores. • Accuracy: 0.9442676901753825 • Precision: 0 (healthy loan) 1.00; 1 (high-risk loan) 0.87 • Recall: 0 (healthy loan) 1.00; 1 (high-risk loan) 0.89
+* Machine Learning Model 2:
+Accuracy, Precision, and Recall scores. • Accuracy: 0.9959744975744975 • Precision: 0 (healthy loan) 0.99; 1 (high-risk loan) 1.00 • Recall: 0 (healthy loan) 0.87; 1 (high-risk loan) 1.00
 
 Machine Learning Model 1:
 
@@ -27,8 +33,7 @@ Does performance depend on the problem we are trying to solve? (For example, is 
 If you do not recommend any of the models, please justify your reasoning.
 
 
-Overview of the Analysis
-The analysis uses two machine learning algorithms to train and evaluate a model based on loan risk. We use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+
 
 The dataset covers various client financial information including loan size, interest rate, borrower income, debt to income, number of accounts, derogatory marks, total debt, and loan status. The purpose of the machine learning model is to predict the clients’ loan status. This is categorized into ‘0’ (healthy loan) and ‘1’ (high-risk loan).
 
